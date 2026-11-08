@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171a17">
+  <meta name="description" content="Shop the Japanese Shoji Table Lamp at LUXE·COD. Free delivery across Pakistan and cash on delivery.">
+  <title>Japanese Shoji Table Lamp | LUXE·COD Pakistan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#20231f;--muted:#73776f;--paper:#f7f6f2;--white:#fff;
+      --line:#e8e6df;--olive:#59634c;--olive-dark:#343d2d;--gold:#b18a54;
+      --soft:#eeeee7;--danger:#a33e35;--shadow:0 18px 55px rgba(30,35,26,.08);
+      --serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6}
+    button,input,select,textarea{font:inherit}
+    button,a{-webkit-tap-highlight-color:transparent}
+    a{color:inherit;text-decoration:none}
+    .announcement{background:var(--ink);color:#f7f6f2;text-align:center;padding:9px 16px;font-size:12px;letter-spacing:.08em}
+    .wrap{width:min(1160px,calc(100% - 48px));margin:auto}
+    header{background:rgba(247,246,242,.96);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;backdrop-filter:blur(14px)}
+    .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{font-size:21px;font-weight:700;letter-spacing:.11em;display:flex;align-items:center;gap:10px}
+    .brand-mark{width:30px;height:30px;border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-family:var(--serif);font-size:17px}
+    .brand span:last-child{color:var(--gold);font-weight:500}
+    .nav-links{display:flex;align-items:center;gap:28px;color:#555a51;font-size:13px}
+    .nav-links a:hover{color:var(--gold)}
+    .nav-support{border:1px solid #d8d8ce;padding:10px 16px;font-size:12px;letter-spacing:.04em}
+    .crumb{font-size:12px;color:var(--muted);padding:22px 0 8px}
+    .crumb span{padding:0 8px;color:#b3b3a9}
+    .product{display:grid;grid-template-columns:1.08fr .92fr;gap:72px;padding:24px 0 68px;align-items:start}
+    .gallery{min-width:0}
+    .main-photo{position:relative;background:#eeece5;aspect-ratio:1/1.04;overflow:hidden}
+    .main-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
+    .main-photo:hover img{transform:scale(1.025)}
+    .photo-label{position:absolute;left:18px;bottom:18px;background:rgba(255,255,255,.9);padding:8px 12px;font-size:10px;letter-spacing:.13em;text-transform:uppercase}
+    .thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+    .thumb{padding:0;border:1px solid transparent;background:#eeece5;aspect-ratio:1;cursor:pointer;overflow:hidden}
+    .thumb[aria-pressed="true"]{border-color:var(--olive)}
+    .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+    .eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.19em;color:var(--olive);font-weight:700;margin:5px 0 14px}
+    h1{font:600 clamp(31px,3.6vw,47px)/1.14 var(--serif);letter-spacing:-.025em;margin:0 0 16px}
+    .intro{color:#62675e;font-size:15px;line-height:1.8;max-width:490px;margin:0 0 24px}
+    .price-line{display:flex;align-items:baseline;gap:12px;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .price{font-size:30px;font-weight:700;letter-spacing:-.04em}
+    .currency{font-size:12px;color:var(--muted);letter-spacing:.08em}
+    .availability{margin-left:auto;color:var(--olive);font-size:11px;display:flex;align-items:center;gap:7px}
+    .dot{width:7px;height:7px;border-radius:50%;background:#71845f}
+    .quick-facts{display:grid;grid-template-columns:1fr 1fr;gap:15px 22px;padding:23px 0}
+    .fact{display:flex;gap:11px;align-items:flex-start;font-size:12px;color:#555a51}
+    .fact-icon{width:30px;height:30px;border:1px solid var(--line);display:grid;place-items:center;color:var(--olive);flex:0 0 auto}
+    .fact strong{display:block;color:var(--ink);font-size:12px;margin-bottom:2px}
+    .actions{display:grid;gap:11px}
+    .btn{min-height:54px;border:1px solid var(--olive-dark);background:var(--olive-dark);color:white;display:flex;align-items:center;justify-content:center;gap:10px;cursor:pointer;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;transition:.2s}
+    .btn:hover{background:#222b1e;transform:translateY(-1px)}
+    .btn-secondary{background:transparent;color:var(--ink);border-color:#c9cbbf}
+    .btn-secondary:hover{background:#eeeee7}
+    .microcopy{text-align:center;color:var(--muted);font-size:11px;margin:5px 0 0}
+    .trust-row{border-top:1px solid var(--line);margin-top:26px;padding-top:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#686d63;font-size:10px}
+    .trust-row span{display:flex;align-items:center;gap:7px}
+    .trust-row b{color:var(--olive);font-size:13px}
+    .section{border-top:1px solid var(--line);padding:58px 0}
+    .section-heading{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:28px}
+    .section-kicker{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--olive);font-weight:700}
+    h2{font:600 clamp(26px,3vw,35px)/1.2 var(--serif);margin:8px 0 0}
+    .section-note{max-width:390px;color:var(--muted);font-size:12px}
+    .details-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+    .description{color:#62675e;font-size:14px;line-height:1.9}
+    .description p{margin:0 0 15px}
+    .spec-list{border-top:1px solid var(--line)}
+    .spec{display:flex;justify-content:space-between;gap:20px;padding:13px 0;border-bottom:1px solid var(--line);font-size:12px}
+    .spec span:first-child{color:var(--muted)}
+    .spec span:last-child{text-align:right;font-weight:600}
+    .notice{margin-top:20px;background:var(--soft);padding:16px 18px;font-size:11px;color:#62675e}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .step{background:#efeee8;padding:22px}
+    .step-no{font:500 24px var(--serif);color:var(--gold)}
+    .step strong{display:block;font-size:13px;margin:8px 0 5px}
+    .step p{font-size:11px;color:var(--muted);margin:0}
+    .reviews-empty{border:1px solid var(--line);padding:28px;text-align:center;color:var(--muted);font-size:13px}
+    footer{background:#20231f;color:#f5f4ef;padding:42px 0 25px}
+    .footer-top{display:flex;justify-content:space-between;gap:30px;align-items:flex-start;padding-bottom:30px}
+    .footer-brand{font-weight:700;letter-spacing:.12em}
+    .footer-copy{max-width:360px;color:#b7baaf;font-size:12px;margin-top:10px}
+    .footer-links{display:flex;gap:24px;flex-wrap:wrap;color:#d1d3ca;font-size:11px}
+    .footer-bottom{border-top:1px solid #41453d;padding-top:18px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#aeb2a7;font-size:10px}
+    .modal{position:fixed;inset:0;background:rgba(20,23,19,.64);display:none;align-items:center;justify-content:center;padding:18px;z-index:50}
+    .modal.open{display:flex}
+    .dialog{background:var(--paper);width:min(560px,100%);max-height:92vh;overflow:auto;padding:30px;position:relative;box-shadow:var(--shadow)}
+    .close{position:absolute;right:18px;top:14px;border:0;background:none;font-size:25px;cursor:pointer;color:var(--muted)}
+    .dialog h2{font-size:29px;margin:0 30px 6px 0}
+    .dialog-intro{font-size:12px;color:var(--muted);margin:0 0 22px}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+    .field{display:grid;gap:6px}
+    .field.full{grid-column:1/-1}
+    .field label{font-size:11px;font-weight:700}
+    .field input,.field select,.field textarea{width:100%;border:1px solid #dcdcd2;background:white;padding:12px 13px;outline:none;border-radius:0;font-size:13px}
+    .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--olive)}
+    .field textarea{min-height:72px;resize:vertical}
+    .order-summary{display:flex;justify-content:space-between;gap:12px;background:#eeeee7;padding:14px;margin:18px 0;font-size:12px}
+    .order-summary strong{font-size:15px}
+    .form-error{color:var(--danger);font-size:11px;min-height:18px;margin:7px 0}
+    .legal-note{font-size:10px;color:var(--muted);margin:12px 0 0;line-height:1.6}
+    .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#20231f;color:white;padding:12px 18px;font-size:12px;z-index:80;display:none;max-width:calc(100% - 30px)}
+
+    .value-points{display:flex;flex-wrap:wrap;gap:8px 18px;margin:-8px 0 20px;color:#59634c;font-size:11px}
+    .purchase-panel{border:1px solid #dedfd5;background:#fff;padding:18px;margin-top:6px}
+    .purchase-panel-top{display:flex;justify-content:space-between;gap:10px;padding-bottom:13px;border-bottom:1px solid var(--line);font-size:9px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+    .quantity-row{display:flex;justify-content:space-between;align-items:center;padding:15px 0;font-size:12px}
+    .quantity-control{display:flex;align-items:center;border:1px solid var(--line)}
+    .quantity-control button{width:35px;height:32px;border:0;background:#f2f2ec;cursor:pointer;font-size:17px;color:var(--ink)}
+    .quantity-control output{width:34px;text-align:center;font-size:12px;font-weight:700}
+    .purchase-total{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:13px 0 17px;font-size:12px}
+    .purchase-total strong{font-size:15px}
+    .support-inline{display:inline-block;margin-top:13px;color:var(--olive);font-size:11px;text-decoration:underline;text-underline-offset:3px}
+    .review-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    .review-card{border:1px solid var(--line);background:#fff;padding:20px}
+    .review-top{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:8px}
+    .review-stars{color:#9b793f;letter-spacing:2px;font-size:12px}
+    .review-tag{font-size:9px;color:var(--olive);border:1px solid #dfe2d6;padding:4px 7px}
+    .review-card strong{font-size:12px}
+    .review-card p{font-size:12px;color:#666b62;margin:8px 0 0}
+    .review-meta{font-size:10px;color:#898d83;margin-top:12px}
+    .review-disclosure{font-size:10px;color:var(--muted);margin-top:14px;line-height:1.6}
+    .sticky-buy{position:fixed;bottom:0;left:0;right:0;z-index:30;background:rgba(247,246,242,.97);border-top:1px solid var(--line);padding:10px max(16px,calc((100vw - 1160px)/2));display:flex;align-items:center;justify-content:space-between;gap:16px;backdrop-filter:blur(12px);transform:translateY(110%);transition:transform .25s}
+    .sticky-buy.visible{transform:translateY(0)}
+    .sticky-product{font-size:11px;font-weight:700}
+    .sticky-product small{display:block;color:var(--muted);font-weight:400}
+    .sticky-buy .btn{min-height:43px;padding:0 24px;font-size:10px}
+    .faq-list{border-top:1px solid var(--line)}
+    .faq-list details{border-bottom:1px solid var(--line);padding:15px 0}
+    .faq-list summary{cursor:pointer;font-size:13px;font-weight:600;list-style:none}
+    .faq-list summary::-webkit-details-marker{display:none}
+    .faq-list summary:after{content:"+";float:right;color:var(--olive);font-size:18px}
+    .faq-list details[open] summary:after{content:"−"}
+    .faq-list details p{font-size:12px;color:var(--muted);max-width:760px;margin:10px 0 0}
+    @media(max-width:600px){.review-grid{grid-template-columns:1fr}.sticky-product{max-width:55%;}.sticky-buy .btn{padding:0 15px}}
+
+    @media(max-width:850px){.product{grid-template-columns:1fr;gap:34px}.gallery{max-width:650px;width:100%;margin:auto}.product-info{max-width:650px;width:100%;margin:auto}.details-grid{gap:28px}.nav-links{gap:15px}}
+    @media(max-width:600px){
+      .wrap{width:min(100% - 32px,1160px)}.nav{height:66px}.nav-links{display:none}.nav-support{padding:9px 11px;font-size:10px}
+      .announcement{font-size:10px}.crumb{padding-top:16px}.product{padding-top:14px;padding-bottom:45px;gap:25px}
+      h1{font-size:34px}.intro{font-size:13px}.price{font-size:27px}.quick-facts{gap:13px}
+      .section{padding:42px 0}.section-heading{display:block}.section-note{margin-top:12px}
+      .details-grid{grid-template-columns:1fr;gap:26px}.steps{grid-template-columns:1fr}.footer-top{display:block}.footer-links{margin-top:22px;gap:15px}
+      .form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.dialog{padding:25px 19px}
+      .trust-row{justify-content:flex-start;gap:14px 20px}
+    }
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+
+    .price-stack{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+    .old-price{font-size:15px;color:#8a8d85;text-decoration:line-through;text-decoration-thickness:1.5px}
+    .discount-badge{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#e7ecdf;color:#405237;padding:5px 8px;border-radius:3px}
+    .courier-panel{margin-top:24px;padding:22px;border:1px solid var(--line);background:#fff}
+    .courier-heading{font-weight:700;font-size:13px;letter-spacing:.04em}
+    .courier-panel p{font-size:11px;color:var(--muted);margin:5px 0 16px}
+    .courier-logos{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+    .courier-logo{min-width:130px;min-height:54px;padding:8px 13px;border:1px solid var(--line);display:flex;align-items:center;gap:10px;background:#fff}
+    .courier-logo img{width:58px;height:32px;object-fit:contain}
+    .courier-logo span{font-size:11px;font-weight:700}
+    .review-invite{background:#f1f2eb}
+    @media(max-width:600px){
+      body{font-size:15px}
+      .wrap{width:calc(100% - 28px)}
+      .announcement{font-size:10px;letter-spacing:.04em}
+      .product{padding-top:12px;gap:24px}
+      .price{font-size:28px}
+      .availability{font-size:10px}
+      .quick-facts{grid-template-columns:1fr 1fr;gap:12px}
+      .btn{min-height:56px;font-size:12px}
+      .sticky-buy{padding:10px 14px;gap:10px}
+      .sticky-product{font-size:11px;max-width:52%}
+      .sticky-buy .btn{min-height:46px;padding:0 12px;font-size:10px;white-space:nowrap}
+      .dialog{width:100%;max-height:calc(100dvh - 24px);padding:24px 17px}
+      .field input,.field textarea{font-size:16px;min-height:48px}
+      .courier-panel{padding:16px}
+      .courier-logo{flex:1 1 125px}
+    }
+
+
+    /* Cleaner, more compact layout */
+    .product{gap:30px;padding-top:20px}
+    .section{padding-top:42px;padding-bottom:42px}
+    .section-heading{margin-bottom:18px}
+    .section-note{max-width:48ch}
+    .quick-facts{gap:12px}
+    .review-grid{gap:14px}
+    .review-card{padding:17px}
+    .courier-panel{margin-top:18px;padding:17px}
+    .courier-panel p{margin:4px 0 12px}
+    .steps{gap:12px}
+    .step{padding:14px}
+    .nationwide-delivery{font-size:12px;font-weight:700;color:var(--ink);margin:5px 0 12px}
+    @media(max-width:600px){
+      .product{padding-top:8px;gap:18px}
+      .section{padding-top:28px;padding-bottom:28px}
+      .section-heading{margin-bottom:14px}
+      .quick-facts{gap:9px}
+      .review-grid{gap:10px}
+      .review-card{padding:14px}
+      .courier-panel{margin-top:14px;padding:14px}
+      .steps{gap:8px}
+      .step{padding:11px}
+      .sticky-buy{padding:8px 12px}
+    }
+
+
+    .free-delivery-note{display:inline-flex;align-items:center;gap:7px;margin:0 0 9px;padding:7px 10px;background:#edf2e8;color:#405237;border-radius:4px;font-size:11px;font-weight:700;letter-spacing:.01em}
+    .free-delivery-note:before{content:"✓";font-size:13px}
+    .delivery-reassurance{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:12px;color:var(--muted);font-size:11px}
+    .delivery-reassurance span{display:inline-flex;align-items:center;gap:5px}
+    @media(max-width:600px){.free-delivery-note{font-size:10px;padding:7px 8px;margin-bottom:7px}}
+
+
+    .form-error.success{color:#315d35;background:#edf5eb;border:1px solid #d5e7d1;padding:10px 12px;border-radius:5px}
+    #submitOrder:disabled{opacity:.7;cursor:wait}
+
+
+    .field-hint{display:block;color:var(--muted);font-size:11px;line-height:1.5;margin:-2px 0 7px}
+    #thankYouPage{min-height:100vh;display:grid;place-items:center;padding:32px 18px;background:var(--paper)}
+    #thankYouPage[hidden]{display:none}
+    .thank-you-card{width:min(620px,100%);background:#fff;border:1px solid var(--line);padding:clamp(28px,6vw,54px);text-align:center;box-shadow:var(--shadow)}
+    .thank-you-check{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;margin:0 auto 20px;background:#edf5eb;color:#315d35;font-size:28px}
+    .thank-you-card h1{font-size:clamp(30px,5vw,42px);margin-bottom:12px}
+    .thank-you-card p{color:var(--muted);font-size:14px}
+    .thank-you-details{margin:24px 0;padding:16px;background:var(--soft);text-align:left;font-size:13px;line-height:1.9}
+    .thank-you-card .btn{width:100%;margin-top:18px}
+    #customerName,#customerCity,#customerAddress,#orderNote{unicode-bidi:plaintext;text-align:start}
+    #customerAddress{min-height:112px;resize:vertical}
+    .delivery-promise{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}
+    .promise-card{border:1px solid var(--line);background:#fff;padding:13px;min-width:0}
+    .promise-card strong{display:block;font-size:12px;color:var(--ink);margin-bottom:4px}
+    .promise-card span{display:block;color:var(--muted);font-size:11px;line-height:1.55}
+    .receipt-heading{display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:13px;margin-bottom:12px}
+    .receipt-heading strong{font-size:13px;letter-spacing:.08em}
+    .receipt-number{font-size:10px;color:var(--olive);font-weight:700;text-align:right;overflow-wrap:anywhere}
+    .receipt-row{display:grid;grid-template-columns:minmax(95px,.7fr) minmax(0,1.3fr);gap:12px;padding:8px 0;border-bottom:1px solid #e4e5dc}
+    .receipt-row span:first-child{color:var(--muted)}
+    .receipt-row span:last-child{font-weight:600;overflow-wrap:anywhere;white-space:pre-wrap}
+    .receipt-total{font-size:15px;font-weight:700;border-top:1px solid #c9cbbf;margin-top:8px;padding-top:12px}
+    .receipt-footnote{font-size:11px!important;line-height:1.65!important;margin-top:15px}
+    .delivery-timeline{display:grid;gap:8px;text-align:left;margin:18px 0}
+    .delivery-timeline div{display:flex;gap:10px;align-items:flex-start;font-size:12px;color:#555a51}
+    .delivery-timeline b{color:var(--olive)}
+    .receipt-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+    .receipt-actions .btn{margin-top:0}
+    .receipt-actions .btn-secondary{background:#fff;color:var(--ink);border-color:#c9cbbf}
+    .receipt-status{display:inline-flex;align-items:center;gap:7px;padding:7px 10px;background:#f4f1e8;color:#725b31;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-top:8px}
+    @media print{
+      @page{size:auto;margin:14mm}
+      body{background:#fff!important}
+      body *{visibility:hidden!important}
+      #thankYouPage,#thankYouPage *{visibility:visible!important}
+      #thankYouPage{position:absolute!important;inset:0!important;display:block!important;min-height:0!important;padding:0!important;background:#fff!important}
+      .thank-you-card{width:100%!important;max-width:none!important;padding:0!important;border:0!important;box-shadow:none!important;text-align:left!important}
+      .thank-you-check,.delivery-timeline,.receipt-actions,#backToShop{display:none!important}
+      .thank-you-details{border:1px solid #ccc;background:#fff!important}
+      .receipt-footnote{color:#444!important}
+    }
+    @media(max-width:600px){
+      .delivery-promise{gap:8px}.promise-card{padding:11px}
+      .thank-you-card{padding:25px 18px}
+      .thank-you-details{padding:13px;font-size:12px}
+      .receipt-row{grid-template-columns: minmax(82px,.65fr) minmax(0,1.35fr);gap:8px;font-size:11px}
+      .receipt-actions{grid-template-columns:1fr}
+      .purchase-panel{padding:14px}.purchase-panel .btn{width:100%}
+    }
+
+  </style>
+</head>
+<body>
+  <div class="announcement">THOUGHTFUL HOME FINDS · AVAILABLE FOR DELIVERY IN PAKISTAN</div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#" aria-label="Luxe COD home"><span class="brand-mark">L</span><span>LUXE<span>·COD</span></span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#details">Product details</a><a href="#delivery">How ordering works</a><a href="#reviews">Reviews</a>
+      </nav>
+      <a class="nav-support" href="#support">ORDER INFO</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="crumb">Home <span>/</span> Home décor <span>/</span> Table lighting</div>
+    <section class="product" aria-labelledby="product-title">
+      <div class="gallery">
+        <div class="main-photo">
+          <img id="mainImage" src="https://static.markaz.app/pakistan/products/1261-408-635083-product-1262.webp" alt="Japanese Shoji-inspired table lamp">
+          <div class="photo-label">Product photography</div>
+        </div>
+        <div class="thumbs" aria-label="Product image gallery">
+          <button class="thumb" type="button" aria-pressed="true" data-src="https://static.markaz.app/pakistan/products/1261-408-635083-product-1262.webp" aria-label="Show lamp image 1"><img src="https://static.markaz.app/pakistan/products/1261-408-635083-product-1262.webp" alt=""></button>
+          <button class="thumb" type="button" aria-pressed="false" data-src="https://static.markaz.app/pakistan/products/1261-408-635083-product-1264.webp" aria-label="Show lamp image 2"><img src="https://static.markaz.app/pakistan/products/1261-408-635083-product-1264.webp" alt=""></button>
+          <button class="thumb" type="button" aria-pressed="false" data-src="https://static.markaz.app/pakistan/products/1261-408-635083-product-1266.webp" aria-label="Show lamp image 3"><img src="https://static.markaz.app/pakistan/products/1261-408-635083-product-1266.webp" alt=""></button>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <div class="eyebrow">A considered detail for your space</div>
+        <h1 id="product-title">Japanese Shoji Style Table Lamp</h1>
+        <p class="intro">Turn an ordinary corner into a calmer, warmer space. This Shoji-inspired table lamp pairs a distinctive Japanese-style grid with a soft golden look — a thoughtful accent for a bedside table, reading corner or shelf.</p>
+        <div class="value-points">
+          <span>✦ A distinctive décor accent</span>
+          <span>✦ Compact for smaller spaces</span>
+          <span>✦ A warm, inviting look</span>
+        </div>
+        <div class="price-line">
+          <div class="price-stack">
+            <span class="price">Rs. 1,899</span>
+            <span class="old-price" id="oldPrice" hidden></span>
+            <span class="discount-badge" id="discountBadge" hidden></span>
+            <span class="currency">PKR</span>
+          </div>
+          <span class="availability"><i class="dot"></i> Free delivery across Pakistan · Cash on delivery</span>
+        </div>
+
+        <div class="quick-facts">
+          <div class="fact"><span class="fact-icon">01</span><div><strong>Compact dimensions</strong>10 × 5 × 2 inches</div></div>
+          <div class="fact"><span class="fact-icon">02</span><div><strong>Warm light</strong>Golden-tone illumination</div></div>
+          <div class="fact"><span class="fact-icon">03</span><div><strong>Material</strong>MDF wood, as listed</div></div>
+          <div class="fact"><span class="fact-icon">04</span><div><strong>Payment</strong>Cash on delivery</div></div>
+        </div>
+
+        <div class="purchase-panel">
+          <div class="purchase-panel-top"><span>YOUR SELECTION</span><span>Cash on delivery</span></div>
+          <div class="quantity-row">
+            <label for="quantity">Quantity</label>
+            <div class="quantity-control">
+              <button type="button" id="qtyMinus" aria-label="Decrease quantity">−</button>
+              <output id="qtyValue" for="quantity">1</output>
+              <button type="button" id="qtyPlus" aria-label="Increase quantity">+</button>
+            </div>
+          </div>
+          <div class="purchase-total"><span>Product subtotal</span><strong id="subtotal">Rs. 1,899</strong></div>
+          <button class="btn" type="button" id="openOrder">Buy now — free delivery <span aria-hidden="true">→</span></button>
+          <p class="microcopy">Free delivery across Pakistan · Cash on delivery · 3–5 day delivery</p>
+          <p class="microcopy">We will call you to confirm your order after we receive it.</p>
+        </div>
+        <a class="support-inline" href="#support">Have a question first? Contact the store →</a>
+        <div class="trust-row">
+          <span><b>✓</b> Clear product information</span>
+          <span><b>✓</b> COD request option</span>
+          <span><b>✓</b> Free delivery nationwide</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="details">
+      <div class="section-heading">
+        <div><div class="section-kicker">The details</div><h2>Simple form. Warm presence.</h2></div>
+        <p class="section-note">Review the product details, then place your order with free delivery across Pakistan.</p>
+      </div>
+      <div class="details-grid">
+        <div class="description">
+          <p>This Japanese Shoji-inspired table lamp pairs a dark finish with a classic geometric grid. Its compact footprint makes it suitable for a bedside table, desk or decorative shelf.</p>
+          <p>The listed construction is MDF wood, with a warm golden light. Product appearance can vary slightly with room lighting and screen settings.</p>
+          <div class="notice"><strong>Order with confidence:</strong> Enjoy free delivery across Pakistan and pay cash when your parcel arrives.</div>
+        </div>
+        <div class="spec-list" aria-label="Product specifications">
+          <div class="spec"><span>Product</span><span>Japanese Shoji-style table lamp</span></div>
+          <div class="spec"><span>Material listed</span><span>MDF wood</span></div>
+          <div class="spec"><span>Colour</span><span>Black</span></div>
+          <div class="spec"><span>Light colour</span><span>Warm / golden</span></div>
+          <div class="spec"><span>Length</span><span>10 inches</span></div>
+          <div class="spec"><span>Width</span><span>5 inches</span></div>
+          <div class="spec"><span>Height</span><span>2 inches</span></div>
+          <div class="spec"><span>Wire length listed</span><span>42 inches</span></div>
+          <div class="spec"><span>Package</span><span>1 × table lamp</span></div>
+          <div class="spec"><span>Product code</span><span>MZ1261200210MRTS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="delivery">
+      <div class="section-heading">
+        <div><div class="section-kicker">A straightforward process</div><h2>How ordering works</h2></div>
+        <p class="section-note">A clear process helps customers know what happens after they share their details.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="step-no">01</div><strong>Place your order</strong><p>Enter your name, mobile number and full delivery address. Your order receipt appears immediately after successful submission.</p></div>
+        <div class="step"><div class="step-no">02</div><strong>We call to confirm</strong><p>After receiving your order, our team will call you to confirm the details. Please keep your phone available.</p></div>
+        <div class="step"><div class="step-no">03</div><strong>Delivery in 3–5 days</strong><p>We will contact you with updates during delivery. Enjoy free delivery and pay cash when your parcel arrives.</p></div>
+      </div>
+      <div class="delivery-promise" aria-label="Order and delivery promises">
+        <div class="promise-card"><strong>☎ Personal confirmation</strong><span>We will call you after your order is received to confirm your purchase.</span></div>
+        <div class="promise-card"><strong>⌁ 3–5 day delivery</strong><span>Estimated delivery across Pakistan, with updates from us during this period.</span></div>
+      </div>
+      <div class="courier-panel">
+        <div class="courier-heading">Delivery partners</div>
+        <p>We deliver across Pakistan through our courier partners, DEX and PostEx. Your order is sent with the available courier for your area.</p>
+        <div class="courier-logos">
+          <div class="courier-logo"><img src="https://static.markaz.app/public/deliverypartnerlogos/dex.png" alt="DEX courier logo" loading="lazy"><span>DEX Courier</span></div>
+          <div class="courier-logo"><img src="https://static.markaz.app/public/deliverypartnerlogos/mobileapplogos/postex.webp" alt="PostEx logo" loading="lazy"><span>PostEx</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="section-heading">
+        <div><div class="section-kicker">Customer feedback</div><h2>A lovely detail for your space.</h2></div>
+        <p class="section-note">We only display feedback that was actually supplied. We do not invent customer experiences or verified-purchase badges.</p>
+      </div>
+      <div class="review-grid">
+        <article class="review-card">
+          <div class="review-top"><span class="review-stars" aria-label="5 out of 5 stars">★★★★★</span><span class="review-tag">Original listing feedback</span></div>
+          <strong>ACollections Store</strong>
+          <p>“Excellent condition, Excellent quality beautiful”</p>
+          <div class="review-meta">17 November 2025 · Original listing comment</div>
+        </article>
+        <article class="review-card review-invite">
+          <div class="review-top"><span class="review-stars">♡ ♡ ♡ ♡ ♡</span><span class="review-tag">Your experience matters</span></div>
+          <strong>Have you ordered this lamp?</strong>
+          <p>Share an honest review after receiving your item. Your feedback helps the next customer make a confident decision.</p>
+          <div class="review-meta">Genuine customer feedback only</div>
+        </article>
+      </div>
+      <p class="review-disclosure">The positive comment above is reproduced from the supplied product listing. It has not been independently verified as a LUXE·COD purchase. The other supplied comments were negative, so they have not been rewritten or presented as praise.</p>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="section-heading"><div><div class="section-kicker">Before you decide</div><h2>Common questions</h2></div></div>
+      <div class="faq-list">
+        <details><summary>When do I pay?</summary><p>You pay cash to the courier when your parcel arrives. There is no advance online payment.</p></details>
+        <details><summary>Is delivery free?</summary><p>Yes. Enjoy free delivery across Pakistan. There are no delivery charges to pay.</p></details>
+        <details><summary>Will you call me after I order?</summary><p>Yes. We will call you after receiving your order to confirm your details. We will also contact you with updates during the 3–5 day delivery period.</p></details>
+        <details><summary>When will my order arrive?</summary><p>Delivery usually takes 3–5 days. We will contact you with updates during this period. Delivery timing may vary slightly depending on your location.</p></details>
+        <details><summary>What if the item arrives damaged?</summary><p>Keep the original packaging and parcel label, and reply to your order confirmation email with clear photos of the parcel and item.</p></details>
+        <details><summary>What are the product details?</summary><p>Product dimensions, listed material and light details are shown in the specifications section above.</p></details>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="support">
+    <div class="wrap">
+      <div class="footer-top">
+        <div><div class="footer-brand">LUXE·COD</div><p class="footer-copy">Thoughtful home essentials, presented with clear product information and straightforward the store.</p></div>
+        <div class="footer-links"><a href="#details">Product details</a><a href="#delivery">Ordering process</a><a href="#reviews">Customer feedback</a><a href="#faq">FAQs</a><a href="#delivery">Delivery information</a></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> LUXE·COD. All rights reserved.</span><span>Pakistan · Free delivery · Cash on delivery</span></div>
+    </div>
+  </footer>
+
+  <div class="sticky-buy" id="stickyBuy">
+    <div class="sticky-product">Shoji Style Table Lamp<small id="stickyPrice">Rs. 1,899 · Qty 1</small></div>
+    <button class="btn" type="button" id="stickyOrder">Buy now →</button>
+  </div>
+
+  <div class="modal" id="orderModal" role="dialog" aria-modal="true" aria-labelledby="orderHeading">
+    <div class="dialog">
+      <button class="close" type="button" id="closeOrder" aria-label="Close order form">×</button>
+      <div class="eyebrow">Cash on delivery</div>
+      <h2 id="orderHeading">Where should we send your order?</h2>
+      <p class="dialog-intro">Enter your delivery details to place your order. We will call you to confirm it, then keep you updated. Delivery usually takes 3–5 days, with free delivery and cash on delivery across Pakistan.</p>
+      <form id="orderForm" action="https://formspree.io/f/xdeevzrl" method="POST">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:1px;width:1px">
+        <div class="form-grid">
+          <div class="field full"><label for="customerName">Full name *</label><input id="customerName" name="name" autocomplete="name" required maxlength="120" dir="auto" spellcheck="false" autocapitalize="off" placeholder="اپنا نام / Your name"></div>
+          <div class="field"><label for="customerPhone">Mobile number *</label><input id="customerPhone" name="phone" type="tel" autocomplete="tel" required inputmode="tel" placeholder="03XXXXXXXXX"></div>
+          <div class="field"><label for="customerCity">City *</label><input id="customerCity" name="city" required autocomplete="address-level2" dir="auto" spellcheck="false" autocapitalize="off" placeholder="شہر / City (e.g. Karachi, لاہور, Multan)"></div>
+          <div class="field full"><label for="customerAddress">Complete delivery address *</label><small class="field-hint">Urdu, Roman Urdu, English, numbers and local landmark names are all accepted. Write the address exactly as your courier can find it.</small><textarea id="customerAddress" name="address" required autocomplete="street-address" dir="auto" spellcheck="false" autocapitalize="off" placeholder="اپنا مکمل پتہ لکھیں — مکان نمبر، گلی، محلہ، مشہور جگہ یا قریبی نشان (Urdu, Roman Urdu or English)"></textarea></div>
+          <div class="field full"><label for="orderNote">Order note (optional)</label><input id="orderNote" name="note" maxlength="500" dir="auto" spellcheck="false" autocapitalize="off" placeholder="کوئی بھی ہدایت / Any delivery instructions"></div>
+        </div>
+        <div class="order-summary"><span>Japanese Shoji Style Table Lamp<br><small>Quantity: <b id="modalQty">1</b> · Cash on delivery</small></span><strong id="modalTotal">Rs. 1,899</strong></div>
+        <div class="form-error" id="formMessage" role="status" aria-live="polite"></div>
+        <button class="btn" type="submit">Place order →</button>
+        <p class="legal-note">Free delivery across Pakistan. Pay cash to the courier when your order arrives. Do not enter card details or passwords.</p>
+      </form>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <section id="thankYouPage" hidden aria-live="polite">
+    <div class="thank-you-card">
+      <div class="thank-you-check" aria-hidden="true">✓</div>
+      <div class="eyebrow">Order received</div>
+      <h1>Thank you for your order!</h1>
+      <p id="thankYouGreeting">Your order has been submitted successfully.</p>
+      <div class="thank-you-details" id="orderReceipt">
+        <div class="receipt-heading"><strong>YOUR ORDER RECEIPT</strong><span class="receipt-number" id="receiptOrderNumber">ORDER ID</span></div>
+        <div class="receipt-row"><span>Customer</span><span id="receiptName">—</span></div>
+        <div class="receipt-row"><span>Mobile</span><span id="receiptPhone">—</span></div>
+        <div class="receipt-row"><span>City</span><span id="receiptCity">—</span></div>
+        <div class="receipt-row"><span>Delivery address</span><span id="receiptAddress">—</span></div>
+        <div class="receipt-row"><span>Order note</span><span id="receiptNote">None</span></div>
+        <div class="receipt-row"><span>Product</span><span>Japanese Shoji Style Table Lamp</span></div>
+        <div class="receipt-row"><span>Quantity</span><span id="thankYouQuantity">1</span></div>
+        <div class="receipt-row"><span>Unit price</span><span>PKR 1,899</span></div>
+        <div class="receipt-row"><span>Delivery</span><span>FREE</span></div>
+        <div class="receipt-row receipt-total"><span>Total to pay</span><span id="thankYouTotal">PKR 1,899</span></div>
+        <div class="receipt-row"><span>Payment</span><span>Cash on Delivery</span></div>
+        <div class="receipt-row"><span>Estimated delivery</span><span>3–5 days</span></div>
+        <div class="receipt-row"><span>Order date</span><span id="receiptDate">—</span></div>
+        <div class="receipt-row"><span>Order status</span><span>Received — awaiting phone confirmation</span></div>
+      </div>
+      <div class="receipt-status">✓ Order request received</div>
+      <div class="delivery-timeline">
+        <div><b>✓</b><span><strong>Next:</strong> We will call you to confirm your order.</span></div>
+        <div><b>✓</b><span><strong>Delivery:</strong> Usually within 3–5 days. We will contact you with updates.</span></div>
+        <div><b>✓</b><span><strong>Payment:</strong> Pay cash to the courier when your parcel arrives.</span></div>
+      </div>
+      <p class="receipt-footnote">Keep this receipt for your records. Your order request has been sent successfully. We will call you to confirm the details before dispatch. Delivery usually takes 3–5 days, and we will contact you with updates.</p>
+      <div class="receipt-actions">
+        <button class="btn btn-secondary" type="button" id="printReceipt">Print / Save receipt</button>
+        <button class="btn" type="button" id="backToShop">Back to store</button>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const FORMSPREE_ENDPOINT = "https://formspree.io/f/xdeevzrl";
+    const modal = document.getElementById("orderModal");
+    const form = document.getElementById("orderForm");
+    const message = document.getElementById("formMessage");
+    const toast = document.getElementById("toast");
+    const submitButton = form.querySelector('button[type="submit"]');
+    const unitPrice = 1899;
+    const compareAtPrice = 2499;
+
+    if (compareAtPrice > unitPrice) {
+      document.getElementById("oldPrice").textContent = "Rs. " + compareAtPrice.toLocaleString("en-PK");
+      document.getElementById("oldPrice").hidden = false;
+      document.getElementById("discountBadge").textContent =
+        Math.round((1 - unitPrice / compareAtPrice) * 100) + "% OFF";
+      document.getElementById("discountBadge").hidden = false;
+    }
+
+    let quantity = 1;
+    function updateQuantity() {
+      const total = unitPrice * quantity;
+      document.getElementById("qtyValue").textContent = quantity;
+      document.getElementById("subtotal").textContent = "Rs. " + total.toLocaleString("en-PK");
+      document.getElementById("stickyPrice").textContent = "Rs. " + total.toLocaleString("en-PK") + " · Qty " + quantity;
+      document.getElementById("modalQty").textContent = quantity;
+      document.getElementById("modalTotal").textContent = "Rs. " + total.toLocaleString("en-PK");
+    }
+    document.getElementById("qtyMinus").addEventListener("click", () => { quantity = Math.max(1, quantity - 1); updateQuantity(); });
+    document.getElementById("qtyPlus").addEventListener("click", () => { quantity = Math.min(10, quantity + 1); updateQuantity(); });
+    document.getElementById("stickyOrder").addEventListener("click", openModal);
+    const stickyBuy = document.getElementById("stickyBuy");
+    window.addEventListener("scroll", () => stickyBuy.classList.toggle("visible", window.scrollY > 520), { passive: true });
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    document.querySelectorAll(".thumb").forEach((button) => {
+      button.addEventListener("click", () => {
+        document.getElementById("mainImage").src = button.dataset.src;
+        document.querySelectorAll(".thumb").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+      });
+    });
+
+    function openModal() {
+      modal.classList.add("open");
+      document.body.style.overflow = "hidden";
+      document.getElementById("customerName").focus();
+    }
+    function closeModal() {
+      modal.classList.remove("open");
+      document.body.style.overflow = "";
+      message.textContent = "";
+      message.classList.remove("success");
+    }
+    document.getElementById("openOrder").addEventListener("click", openModal);
+    document.getElementById("closeOrder").addEventListener("click", closeModal);
+    modal.addEventListener("click", (event) => { if (event.target === modal) closeModal(); });
+    document.addEventListener("keydown", (event) => { if (event.key === "Escape" && modal.classList.contains("open")) closeModal(); });
+
+    function normalizePakistanPhone(value) { return value.replace(/[\s()-]/g, ""); }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      message.textContent = "";
+      message.classList.remove("success");
+      if (!form.reportValidity()) return;
+
+      const data = new FormData(form);
+      const phone = normalizePakistanPhone(String(data.get("phone") || ""));
+      if (!/^(\+92|92|0)3\d{9}$/.test(phone)) {
+        message.textContent = "Enter a valid Pakistan mobile number, such as 03XXXXXXXXX.";
+        document.getElementById("customerPhone").focus();
+        return;
+      }
+
+      const total = unitPrice * quantity;
+      const orderId = "LX-" + Date.now().toString().slice(-8);
+      data.set("phone", phone);
+      data.set("order_id", orderId);
+      data.set("product", "Japanese Shoji Style Table Lamp");
+      data.set("product_code", "MZ1261200210MRTS");
+      data.set("unit_price", "PKR 1,899");
+      data.set("quantity", String(quantity));
+      data.set("subtotal", "PKR " + total.toLocaleString("en-PK"));
+      data.set("delivery", "FREE — across Pakistan");
+      data.set("payment_method", "Cash on Delivery");
+      data.set("estimated_delivery", "3–5 days");
+      data.set("customer_follow_up", "LUXE·COD will call the customer to confirm the order and contact them with updates during delivery.");
+      data.set("_subject", "New LUXE·COD order " + orderId + " — Japanese Shoji Table Lamp");
+
+      submitButton.disabled = true;
+      submitButton.textContent = "Placing your order…";
+      try {
+        const response = await fetch(FORMSPREE_ENDPOINT, {
+          method: "POST",
+          body: data,
+          headers: { "Accept": "application/json" }
+        });
+        const result = await response.json().catch(() => ({}));
+        if (response.ok && result.errors == null) {
+          const customerName = String(data.get("name") || "").trim();
+          document.getElementById("thankYouGreeting").textContent =
+            (customerName ? "Thank you, " + customerName + ". " : "") + "Your order has been submitted successfully.";
+          document.getElementById("receiptOrderNumber").textContent = orderId;
+          document.getElementById("receiptName").textContent = String(data.get("name") || "—");
+          document.getElementById("receiptPhone").textContent = phone;
+          document.getElementById("receiptCity").textContent = String(data.get("city") || "—");
+          document.getElementById("receiptAddress").textContent = String(data.get("address") || "—");
+          document.getElementById("receiptNote").textContent = String(data.get("note") || "").trim() || "None";
+          document.getElementById("receiptDate").textContent = new Intl.DateTimeFormat("en-PK", { dateStyle: "medium", timeStyle: "short" }).format(new Date());
+          document.getElementById("thankYouQuantity").textContent = String(quantity);
+          document.getElementById("thankYouTotal").textContent = "PKR " + total.toLocaleString("en-PK");
+          form.reset();
+          quantity = 1;
+          updateQuantity();
+          modal.classList.remove("open");
+          document.body.style.overflow = "";
+          document.querySelector("header").hidden = true;
+          document.querySelector("main").hidden = true;
+          document.querySelector("footer").hidden = true;
+          document.getElementById("stickyBuy").hidden = true;
+          document.getElementById("thankYouPage").hidden = false;
+          window.scrollTo({ top: 0, behavior: "instant" });
+        } else {
+          const detail = result.errors?.map((item) => item.message).join(" ") || result.error || "Please try again.";
+          message.textContent = "We couldn't submit your order. " + detail;
+          submitButton.disabled = false;
+          submitButton.textContent = "Place order →";
+        }
+      } catch (error) {
+        message.textContent = "Connection problem. Check your internet connection and try again.";
+        submitButton.disabled = false;
+        submitButton.textContent = "Place order →";
+      }
+    });
+
+    document.getElementById("printReceipt").addEventListener("click", () => window.print());
+
+    document.getElementById("backToShop").addEventListener("click", () => {
+      document.getElementById("thankYouPage").hidden = true;
+      document.querySelector("header").hidden = false;
+      document.querySelector("main").hidden = false;
+      document.querySelector("footer").hidden = false;
+      document.getElementById("stickyBuy").hidden = false;
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
